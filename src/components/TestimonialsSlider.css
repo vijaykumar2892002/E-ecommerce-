@@ -1,0 +1,27 @@
+.testimonials-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonials-content {
+    display: flex;
+    overflow-x: hidden;
+  }
+  
+  .testimonial-slide {
+    flex: 0 0 auto;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .testimonial-slide.active {
+    opacity: 1;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
